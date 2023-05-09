@@ -1,14 +1,8 @@
 import React from "react";
-import "./App.css";
+import KButton from "./components/button";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>Edit</p>
-      </header>
-    </div>
-  );
+  return <KButton block={true} />;
 }
 
 export default App;
