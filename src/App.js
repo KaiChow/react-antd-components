@@ -1,7 +1,9 @@
+import KButton from "./components/button";
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">1111111111</header>
+      <KButton type="line" />
     </div>
   );
 }
