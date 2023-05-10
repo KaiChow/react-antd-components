@@ -21,4 +21,7 @@ export type ButtonHTMLType = (typeof ButtonHTMLTypes)[number];
 export type BtnPropsTypes = {
   type?: ButtonType;
   block?: boolean;
+  onClick?: Function;
+  innerLoading?: boolean;
+  disabled?: boolean;
 };
